@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>もしもシリーズ Uploader Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<style>
+/* Layout: one reading column; English text first for the platform reviewer, Japanese summary under each section. */
+:root{
+  --bg:#f6f7f5; --surface:#ffffff; --ink:#1b211e; --muted:#5c6762; --line:#d8dfdb; --accent:#2a7f62;
+  --display:"IBM Plex Sans","Zen Kaku Gothic New",system-ui,sans-serif;
+  --body:"IBM Plex Sans","Zen Kaku Gothic New","Hiragino Sans",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121614;--surface:#1a201d;--ink:#e6ece9;--muted:#9aa7a1;--line:#2b3430;--accent:#6fd3ad;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121614;--surface:#1a201d;--ink:#e6ece9;--muted:#9aa7a1;--line:#2b3430;--accent:#6fd3ad;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.7 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+main{max-width:68ch;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+header{display:flex;flex-direction:column;gap:6px}
+.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+h1{font:600 clamp(24px,5vw,32px)/1.25 var(--display);margin:0;text-wrap:balance}
+h2{font:600 21px/1.3 var(--display);margin:0;text-wrap:balance}
+h3{font:600 16px/1.4 var(--display);margin:8px 0 0}
+section{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px;display:flex;flex-direction:column;gap:10px;min-width:0}
+p,ul{margin:0}
+ul{padding-left:1.2em}
+.ja{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);font-size:15px}
+nav{display:flex;gap:16px;flex-wrap:wrap}
+a{color:var(--accent)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.meta{color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<main>
+<header>
+    <span class="eyebrow">もしもシリーズ Uploader</span>
+    <h1>Terms of Service and Privacy Policy</h1>
+    <p class="meta">Effective October 21, 2026. Operated by the creator of the YouTube channel “もしも世界…” (<a href="https://www.youtube.com/@if_world11" target="_blank" rel="noopener">youtube.com/@if_world11</a>).</p>
+    <nav><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a></nav>
+  </header>
+<section id="privacy">
+    <h2>Privacy Policy</h2>
+    <h3>What the App accesses</h3>
+    <ul>
+      <li>The operator’s TikTok account identifier (open_id) and an access token, received through TikTok Login Kit after the operator authorizes the App.</li>
+      <li>The <code>video.upload</code> permission, used only to send the operator’s own videos to the operator’s TikTok inbox as drafts.</li>
+    </ul>
+    <h3>What the App does not do</h3>
+    <ul>
+      <li>It does not collect data about other TikTok users or viewers.</li>
+      <li>It does not read messages, followers, comments or analytics.</li>
+      <li>It does not sell, share or transfer any data to third parties.</li>
+    </ul>
+    <h3>Storage and retention</h3>
+    <p>Access and refresh tokens are stored only as encrypted secrets in the operator’s private automation environment and are used only to upload drafts. The operator can revoke access at any time in TikTok’s settings (Security and permissions → Apps), after which the stored tokens stop working and are deleted.</p>
+    <h3>Changes and contact</h3>
+    <p>This policy is updated on this page when the App changes. Questions can be sent through the contact information on the YouTube channel above.</p>
+    <p class="ja">日本語の要約：アプリが受け取るのは、運営者のTikTokアカウントの識別子と、下書きを送るための許可（video.upload）だけです。ほかの利用者や視聴者の情報は集めず、第三者にも渡しません。許可はTikTokの設定からいつでも取り消せます。</p>
+  </section>
+</main>
+</body>
+</html>
